@@ -1,0 +1,39 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    color: #0056B3;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    background-color: #0056B3;
+    color: #F5F5F5;
+    border: None;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkslateblue;
+    color: #F5F5F5;
+}
+
+.matrix {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 480px;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    width: 100%;
+}
+
+.square {
+    flex: 1;
+    background-color: #87CEEB;
+    opacity: 0.1;
+    border: solid 1px darkslateblue;
+}
